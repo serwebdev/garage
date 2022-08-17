@@ -1,0 +1,13 @@
+.useful-news {
+  margin-top: 37px;
+  margin-bottom: 155px;
+
+  @media (max-width: 600px) {
+    margin-bottom: 50px;
+  }
+
+  .useful-cards {
+    flex-wrap: wrap;
+    gap: 30px 20px;
+  }
+}

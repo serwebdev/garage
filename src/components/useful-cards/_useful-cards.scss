@@ -1,0 +1,59 @@
+.useful-cards {
+  display: flex;
+  gap: 20px;
+
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    flex: 0 1 calc(33.3333% - (40px / 3));
+
+    @media (max-width: 900px) {
+      flex: 0 1 calc(50% - 20px);
+    }
+    @media (max-width: 650px) {
+      flex: 0 1 100%;
+    }
+  }
+
+  &__img {
+    margin-bottom: 15px;
+  }
+
+  &__label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(14, 15, 40, 0.5);
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+
+  &__label-date {
+  }
+
+  &__label-name {
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: $black;
+    margin-bottom: 12px;
+  }
+
+  &__detailed {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: $red;
+    transition: 0.2s;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}

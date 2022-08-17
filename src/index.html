@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    @@include('_header.html')
+
+    <section class="hero">
+        <div class="hero__slider swiper">
+            <div class="hero__slider-wrapper swiper-wrapper">
+                <div class="hero__slider-slide swiper-slide hero__slider-slide--1">
+                    <div class="container">
+                        <div class="hero__slider-inner">
+                            <div class="hero__col hero__col--1">
+                                <img src="./img/main/hero-car-1.png" alt="Автомобиль" class="hero__img">
+                            </div>
+                            <div class="hero__col hero__col--2">
+                                <h1 class="hero__title">Техническое обслуживание</h1>
+                                <p class="hero__subtitle">toyota</p>
+                                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button class="hero__btn btn">записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slider-slide swiper-slide hero__slider-slide--2">
+                    <div class="container">
+                        <div class="hero__slider-inner">
+                            <div class="hero__col hero__col--1">
+                                <img src="./img/main/hero-car-2.png" alt="Автомобиль" class="hero__img">
+                            </div>
+                            <div class="hero__col hero__col--2">
+                                <h1 class="hero__title">Техническое обслуживание</h1>
+                                <p class="hero__subtitle">hyundai</p>
+                                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button class="hero__btn btn">записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slider-slide swiper-slide hero__slider-slide--3">
+                    <div class="container">
+                        <div class="hero__slider-inner">
+                            <div class="hero__col hero__col--1">
+                                <img src="./img/main/hero-car-3.png" alt="Автомобиль" class="hero__img">
+                            </div>
+                            <div class="hero__col hero__col--2">
+                                <h1 class="hero__title">Техническое обслуживание</h1>
+                                <p class="hero__subtitle">toyota</p>
+                                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button class="hero__btn btn">записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slider-slide swiper-slide hero__slider-slide--4">
+                    <div class="container">
+                        <div class="hero__slider-inner">
+                            <div class="hero__col hero__col--1">
+                                <img src="./img/main/hero-car-1.png" alt="Автомобиль" class="hero__img">
+                            </div>
+                            <div class="hero__col hero__col--2">
+                                <h1 class="hero__title">Техническое обслуживание</h1>
+                                <p class="hero__subtitle">toyota</p>
+                                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button class="hero__btn btn">записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slider-slide swiper-slide hero__slider-slide--5">
+                    <div class="container">
+                        <div class="hero__slider-inner">
+                            <div class="hero__col hero__col--1">
+                                <img src="./img/main/hero-car-2.png" alt="Автомобиль" class="hero__img">
+                            </div>
+                            <div class="hero__col hero__col--2">
+                                <h1 class="hero__title">Техническое обслуживание</h1>
+                                <p class="hero__subtitle">hyundai</p>
+                                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button class="hero__btn btn">записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hero-slider-control">
+                    <div class="swiper-pagination2"></div>
+                    <div class="swiper-button-next2">
+                        <img src="./img/main/hero-arrow-right.png" alt="">
+                    </div>
+                    <!-- <div class="swiper-button-prev2"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -------------------------------------------------------------->
+    @@include('./components/services/_services.html')
+
+    <!-- banners -------------------------------------------------------------->
+    <section class="banners">
+        <div class="container">
+            <a href="./services.html" class="banners__title">все услуги</a>
+            <div class="banners__box">
+                <a href="#" class="banners__item banners__item--1">
+                    <div class="banners__item-title">Только в июле ТО</div>
+                    <div class="banners__item-subtitle">для toyota -10%</div>
+                    <p class="banners__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <button class="banners__item-btn btn">записаться на ТО</button>
+                </a>
+                <a href="#" class="banners__item banners__item--2">
+                    <div class="banners__item-title">Закажи масла on-line</div>
+                    <div class="banners__item-subtitle">motul</div>
+                    <p class="banners__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="banners__item-btn btn">заказать масло</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- advantage -------------------------------------------------------------->
+    @@include('./components/advantage/_advantage.html')
+
+    <!-- repair -------------------------------------------------------------->
+    @@include('./components/repair/_repair.html')
+
+    <!-- useful -------------------------------------------------------------->
+    <section class="useful">
+        <div class="container">
+            <h2 class="useful__title h2">Полезная информация</h2>
+            @@include('./components/useful-cards/_useful-cards.html')
+            <a href="#" class="useful__more">Больше статей</a>
+        </div>
+    </section>
+
+    @@include('_footer.html')
+
+
+    <!-- popup -------------------------------------------------------------->
+    <div class="modal popup">
+        <div class="modal__body">
+            <button class="modal__btn">
+                <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="5.47432" height="26.3529" rx="2.73716"
+                        transform="matrix(0.691215 0.722649 -0.691215 0.722649 18.2161 6.10352e-05)" fill="#FF1A3B" />
+                    <rect width="5.47432" height="26.3529" rx="2.73716"
+                        transform="matrix(0.691215 -0.722649 0.691215 0.722649 0 3.95602)" fill="#FF1A3B" />
+                </svg>
+            </button>
+            <div class="modal__content">
+                <img src="./img/popup/logo-popup.svg" alt="Логотип" class="popup__logo">
+                <h4 class="popup__title">Форма записи</h4>
+                @@include('./components/form/_form.html')
+            </div>
+        </div>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

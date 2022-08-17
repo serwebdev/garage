@@ -1,0 +1,26 @@
+@import './fonts';
+@import './variables';
+@import './reset';
+@import './global';
+
+// Компоненты
+@import './header';
+@import '../components/services/services';
+@import '../components/advantage/advantage';
+@import '../components/form/form';
+@import '../components/repair/repair';
+@import '../components/useful-cards/useful-cards';
+@import '../components/partners/partners';
+@import './footer';
+
+@import '../components/firstscreen/firstscreen';
+@import '../components/advice/advice';
+@import '../components/price/price';
+
+// Страницы
+@import './index';
+@import './services-page';
+@import './technical-service';
+@import './repair-page';
+@import './news';
+@import './post-news';

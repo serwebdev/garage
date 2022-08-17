@@ -1,0 +1,115 @@
+.repair {
+  background: url(../img/main/repair.png) no-repeat right 254px top,
+    linear-gradient(180deg, #0e0f28 0%, #060716 100%);
+  padding: 41px 0 122px 0;
+
+  @media (max-width: 1900px) {
+    background-position: top right;
+  }
+  @media (max-width: 1450px) {
+    background-size: 700px;
+  }
+  @media (max-width: 1150px) {
+    background-size: 500px;
+  }
+  @media (max-width: 800px) {
+    padding: 20px;
+    background: linear-gradient(180deg, #0e0f28 0%, #060716 100%);
+  }
+  @media (max-width: 600px) {
+    padding: 15px;
+  }
+
+  &__logo {
+    width: 227px;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: 80px;
+
+    @media (max-width: 600px) {
+      max-width: 210px;
+      margin-right: auto;
+      margin-left: 0;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: $white;
+    max-width: 732px;
+    margin-bottom: 26px;
+
+    @media (max-width: 1150px) {
+      background-color: #0000005c;
+      border-radius: 15px;
+    }
+    @media (max-width: 800px) {
+      font-size: 34px;
+      background-color: transparent;
+    }
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
+  }
+
+  //   form==================
+  .form {
+    &__label-box {
+      display: flex;
+      gap: 22px;
+      margin-bottom: 26px;
+
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+    }
+    &__label {
+      max-width: 232px;
+      color: $white;
+      margin-bottom: 0;
+
+      @media (max-width: 600px) {
+        max-width: 100%;
+      }
+    }
+
+    &__icon {
+      z-index: 1;
+    }
+
+    &__input {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #ffffff;
+      backdrop-filter: blur(8px);
+      margin-top: 14px;
+      color: $white;
+      outline-color: $white;
+    }
+
+    .input-calendar2 {
+      word-spacing: 20px;
+    }
+
+    &__checkbox {
+    }
+
+    &__label-checkbox {
+      color: $white;
+      transform: translateY(-3px);
+      display: inline-block;
+    }
+
+    &__btn {
+      display: flex;
+      outline-color: $red;
+      margin-top: 30px;
+    }
+  }
+}
